@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OOMP Labor 1.cpp" />
+    <ClCompile Include="play_game.cpp" />
+    <ClCompile Include="play_game2.cpp" />
+    <ClCompile Include="simulate_game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="play_game.h" />
+    <ClInclude Include="play_game2.h" />
+    <ClInclude Include="simulate_game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
