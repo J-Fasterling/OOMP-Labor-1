@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "play_game.h"
 
 int main()
 {
