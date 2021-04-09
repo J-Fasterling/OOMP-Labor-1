@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOMP Labor 1", "OOMP Labor 1\OOMP Labor 1.vcxproj", "{2F59ABC3-129E-4473-8EA6-0829D1DD4724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Debug|x64.ActiveCfg = Debug|x64
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Debug|x64.Build.0 = Debug|x64
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Debug|x86.Build.0 = Debug|Win32
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Release|x64.ActiveCfg = Release|x64
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Release|x64.Build.0 = Release|x64
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Release|x86.ActiveCfg = Release|Win32
+		{2F59ABC3-129E-4473-8EA6-0829D1DD4724}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5386D013-23A8-4BC3-AE35-69A7E228EB80}
+	EndGlobalSection
+EndGlobal
