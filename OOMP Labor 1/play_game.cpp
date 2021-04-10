@@ -20,18 +20,18 @@ play_game::eHighLow play_game::guess(int iRandomNumber)
 		return eHighLow::fits;
 	}
 	//Die zahl war zu niedrig
-	else if (iGuessedNumber < iRandomNumber){
+	else if (iGuessedNumber < iRandomNumber && iGuessedNumber > 0){
 		std::cout << "Diese Zahl war zu niedrig." << std::endl << std::endl;
 		return eHighLow::tooLow;
 	}
 	//Die Zahl war zu hoch
-	else if (iGuessedNumber > iRandomNumber){
+	else if (iGuessedNumber > iRandomNumber && iGuessedNumber < 101){
 		std::cout << "Diese Zahl war zu hoch." << std::endl << std::endl;
 		return eHighLow::tooHigh;
 	}
 	//Die Eingabe war ungültig
 	else{
-		std::cout << "Das war schwachsinn!" << std::endl << std::endl;
+		std::cout << "Deine Eingabe war außerhalb des gültigen Zahlenbereichs." << std::endl << std::endl;
 		return eHighLow::error;
 	}
 
