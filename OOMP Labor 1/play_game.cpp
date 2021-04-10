@@ -16,7 +16,7 @@ play_game::eHighLow play_game::guess(int iRandomNumber)
 
 	//Die richtige Zahl wurde erraten
 	if (iGuessedNumber == iRandomNumber){
-		std::cout << "Perfekt du hast es geschafft. :)" << std::endl;
+		std::cout << "Perfekt du hast es beim " << iTries << ". Versuch geschafft. :)" << std::endl;
 		return eHighLow::fits;
 	}
 	//Die zahl war zu niedrig
@@ -51,8 +51,6 @@ play_game::play_game()
 	{
 		iTries++;
 	}
-
-	std::cout << "Du hast es beim " << iTries << ". Versuch geschafft." << std::endl << std::endl;
 }
 
 
