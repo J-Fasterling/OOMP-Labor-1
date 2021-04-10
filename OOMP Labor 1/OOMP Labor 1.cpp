@@ -6,7 +6,7 @@
 
 int main()
 {
-
+	play_game LetsPlay;
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
