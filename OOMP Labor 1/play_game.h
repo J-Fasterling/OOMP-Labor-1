@@ -4,6 +4,7 @@ class play_game
 {
 public:
 	int iTries = 1;
+
 	enum class eHighLow
 	{
 		tooHigh,

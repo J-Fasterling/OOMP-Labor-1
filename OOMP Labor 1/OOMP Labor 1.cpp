@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include "play_game.h"
+#include "simulate_game.h"
 
 int main()
 {
-	play_game LetsPlay;
+	simulate_game LetsPlay;
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
