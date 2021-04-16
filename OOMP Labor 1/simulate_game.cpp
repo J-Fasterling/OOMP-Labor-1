@@ -6,8 +6,8 @@
 
 int simulate_game::pickNumber()
 {
-	//int iGuess = (rand() % ((iTop + 1) - iBottom)) + iBottom;
-    int iGuess = ((iTop - iBottom) / 2) + iBottom;
+	int iGuess = (rand() % ((iTop + 1) - iBottom)) + iBottom;
+    //int iGuess = ((iTop - iBottom) / 2) + iBottom;
 
 	std::cout << iGuess << std::endl;
 
@@ -72,5 +72,5 @@ simulate_game::simulate_game()
 
 simulate_game::~simulate_game()
 {
-
+	iTries = 1;
 }

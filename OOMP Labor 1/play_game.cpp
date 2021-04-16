@@ -55,4 +55,7 @@ play_game::play_game()
 
 
 
-play_game::~play_game() {}
+play_game::~play_game() 
+{
+	iTries = 1;
+}

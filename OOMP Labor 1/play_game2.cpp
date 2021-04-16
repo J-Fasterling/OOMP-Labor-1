@@ -57,5 +57,5 @@ play_game2::play_game2()
 
 play_game2::~play_game2() 
 {
-	
+	iTries = 1;
 }

@@ -17,6 +17,7 @@ public:
 	play_game();
 	~play_game();
 
+
 private:
 	int iNumberToGuess;
 };
